@@ -1,17 +1,21 @@
 {
-  "name": "chat-app",
+  "name": "flight-comparison",
   "version": "1.0.0",
-  "description": "",
+  "description": "Flight comparison platform with frontend and backend",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "npm run start --prefix backend"
+    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "react-hot-toast": "^2.5.2",
-    "react-icons": "^5.5.0"
+  "keywords": [
+    "flight",
+    "comparison",
+    "booking",
+    "travel"
+  ],
+  "author": "Ankit Rathore",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }
