@@ -17,6 +17,7 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: "http://localhost:5173",
+    // origin: "https://flight-comparign-frontend.onrender.com",
     credentials: true,
   })
 );

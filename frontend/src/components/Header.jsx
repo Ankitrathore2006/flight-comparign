@@ -11,21 +11,10 @@ const Header = () => {
           autoPlay 
           muted 
           loop 
-          style={{
-            width: '60rem',
-            borderRadius: '20rem'
-          }}
         />
         <img 
           src="/images/airplane.png" 
           alt="airplane" 
-          style={{
-            position: 'absolute',
-            width: '86rem',
-            left: '-22%',
-            top: '-35px',
-            margin: 'auto'
-          }}
         />
       </div>
     </header>

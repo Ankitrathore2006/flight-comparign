@@ -570,6 +570,18 @@ nav {
   width: fit-content;
 }
 
+.hero video{
+  width: 60rem;
+  border-radius: 20rem;
+}
+.hero img{
+  position: absolute;
+  width: 86rem;
+  left: -22%;
+  top: -35px;
+  margin: auto;
+}
+
 .hero img:hover{
   transform: scale(1.01);
   transition: 0.3s ease-in-out;
